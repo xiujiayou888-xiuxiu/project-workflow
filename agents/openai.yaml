@@ -1,0 +1,7 @@
+interface:
+  display_name: "规化全链路"
+  short_description: "零基础也能从想法到交付的专业 AI 项目架构与开发向导"
+  default_prompt: "使用 $project-workflow，我不会开发，但想把一个项目想法按架构一步一步做成可用产品。"
+
+policy:
+  allow_implicit_invocation: true
