@@ -13,4 +13,4 @@
 - 同步 `C:\Users\10641\.codex\skills\project-workflow` 和 `C:\Users\10641\.agents\skills\project-workflow`。
 - 运行结构、引用、代码围栏、zip manifest、安装目录一致性和场景矩阵检查。
 - 验证所有路由均执行合法合规门禁：权利来源、授权范围、许可证/NOTICE、数据依据、隐私和适用法律/行业规则；疑点必须保留 `unknown/未完成`。
-- 提交、推送、创建 `v3.1.0` 标签和 GitHub Release；保留 `v3.0.0` 不变。
+- 外部发布恢复后：完成 `v3.1.0` 标签、GitHub Release 和 `project-workflow-skill.zip` 资产上传；保留 `v3.0.0` 不变，并复验真实 URL、资产 SHA256、远程同步和工作区干净。

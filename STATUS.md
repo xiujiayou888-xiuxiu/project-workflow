@@ -38,4 +38,8 @@
 - 本次本地验收通过：元数据、引用、R1-R4/AI/UI/部署/拆解/许可证/合法合规场景矩阵、Markdown 代码围栏、ZIP manifest 和逐文件哈希均通过。
 - `project-workflow-skill.zip` SHA256：`A80E2FA91272BBBAB3324B52D072CF8906814D714A31713B6699DA6934E1F3D4`，大小 `48287` 字节；源码、`C:\Users\10641\.codex\skills\project-workflow` 和 `C:\Users\10641\.agents\skills\project-workflow` 均为 13 个文件且逐项一致。
 - 官方 `codex` CLI validator 当前无法执行：命令返回 Windows `Access is denied`；已用等价本地检查替代并保留该限制。
-- 当前执行状态：本地实现、安装同步、打包和验收完成，待提交、推送、打 `v3.1.0` 标签并创建 GitHub Release。
+- 本地提交：`022600e68b010e9fde7727d1a3a6b81814536479`；本地 `v3.1.0` 注释标签已创建并指向该提交，`v3.0.0` 未改变。
+- GitHub 连接器已将同一 18 文件变更树同步到远程 `main` 提交 `5492645b4e25fbebfa3ec3db09afb5b57d73c98e`，未使用 force update。
+- 发布阻塞：命令行 HTTPS 无法连接 GitHub `443`；SSH 缺少 host key；`gh auth status` 显示未登录；当前连接器没有创建 Git tag/Release/上传 Release asset 的接口。未编造标签或 Release URL。
+- 恢复动作：运行 `gh auth login`（或配置 `GH_TOKEN`），然后普通推送 `git push origin v3.1.0`，创建 Release 并上传 `project-workflow-skill.zip`，再复验远程 `main`、tag、Release URL 和资产 SHA256。
+- 当前执行状态：源码、安装同步、打包、本地验收和远程 `main` 同步完成；仅 GitHub `v3.1.0` 标签、Release 和资产待外部授权/网络恢复后完成。
