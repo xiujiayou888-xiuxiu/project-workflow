@@ -1,0 +1,29 @@
+# Operating system and editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+
+# Local environment and secrets
+.env
+.env.*
+*.local
+*.secret
+secrets/
+
+# Runtime and generated files
+node_modules/
+dist/
+build/
+coverage/
+.cache/
+tmp/
+temp/
+*.log
+
+# Python cache, for local validation scripts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
