@@ -25,3 +25,17 @@
 - GitHub Release 已创建：`https://github.com/xiujiayou888-xiuxiu/project-workflow/releases/tag/v3.0.0`。
 - Release 资产已上传：`project-workflow-skill.zip`，大小 `38565` 字节，GitHub digest `sha256:849f2f5850ac2e0989c6e14224920aa7bae64f5b04084328d8a6b7a1ad54dc7b`。
 - 远程复验：`origin/main` 为 `bdc125c31087b7db51f297a61dd674bfa4d83085`；`v3.0.0^{}` 为 `1c0c4b8987107231ea400bbc9a7751770a5ade79`；本地与远程 ahead/behind 为 `0/0`。
+
+## 2026-08-03 - V3.1 开发前复用门禁
+
+- 来源任务已确认：给 project-workflow Skill 增加“开发项目前先查 GitHub/成熟生态是否有可参考或可复用项目”的强制能力。
+- 目标版本：`3.1.0`，作为向后兼容功能新增；必须保留 `v3.0.0` 标签和 Release，不移动旧标签，不 force push。
+- 新增固定产物：`docs/02-开源参考与复用评估.md`。
+- 门禁要求：R1 快速检查或写跳过理由；R2-R4 在正式架构/编码前必须搜索 GitHub、官方模板、包管理生态和成熟核心组件；AI/Agent、UI、部署等项目要补查对应官方 SDK、成熟引擎、设计系统或部署模板。
+- 证据要求：每个候选必须记录真实 URL、仓库/包、许可证、版本/commit、检查日期和证据；不能联网或查不到写 `unknown/未完成`，禁止编造。
+- 安全边界：采用前检查许可证、NOTICE/署名、维护、安全、供应链和总成本；禁止整库照搬、来源不明复制、许可证不兼容或把高风险停更仓库直接用于生产。
+- 合法合规硬门禁：任何项目都必须检查第三方权利、数据/内容/模型授权、隐私、适用法律/行业规则和违法滥用风险；R1 也不能跳过，无法确认时写 `unknown/未完成` 并暂停采用或实现。
+- 本次本地验收通过：元数据、引用、R1-R4/AI/UI/部署/拆解/许可证/合法合规场景矩阵、Markdown 代码围栏、ZIP manifest 和逐文件哈希均通过。
+- `project-workflow-skill.zip` SHA256：`A80E2FA91272BBBAB3324B52D072CF8906814D714A31713B6699DA6934E1F3D4`，大小 `48287` 字节；源码、`C:\Users\10641\.codex\skills\project-workflow` 和 `C:\Users\10641\.agents\skills\project-workflow` 均为 13 个文件且逐项一致。
+- 官方 `codex` CLI validator 当前无法执行：命令返回 Windows `Access is denied`；已用等价本地检查替代并保留该限制。
+- 当前执行状态：本地实现、安装同步、打包和验收完成，待提交、推送、打 `v3.1.0` 标签并创建 GitHub Release。

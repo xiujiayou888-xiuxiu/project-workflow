@@ -6,7 +6,7 @@
 
 ## 当前版本
 
-- 版本：V3 / `3.0.0`
+- 版本：V3.1 / `3.1.0`
 - 主要入口：`SKILL.md`
 - 配套模块：`references/01-项目发现与需求.md` 至 `references/10-文档模板.md`
 - 安装包：`project-workflow-skill.zip`
@@ -16,4 +16,3 @@
 - 只维护 workflow-kit repo 的设计、开发、测试、review、发布和部署。
 - 不承载其他产品或客户项目本体。
 - 不删除旧目录、V2 归档、售卖包或用户数据。
-
