@@ -5,7 +5,7 @@
 ## 修改原则
 
 - 先说明要解决的真实使用问题。
-- 保持 `SKILL.md` 作为轻量总控，细节放入 `references/` 对应模块。
+- 保持 `SKILL.md` 作为轻量总控，细节放入 `references/` 对应模块或 `docs/` 固定产物模板。
 - 不新增未经验证的工具承诺、平台登录状态或付费能力。
 - 不删除旧项目兼容规则。
 - 中文文档保持面向普通用户，避免营销夸大。
@@ -13,6 +13,5 @@
 ## 提交前检查
 
 - 确认没有密钥、token、个人数据或本机私有路径。
-- 确认 `project-workflow-skill.zip` 只包含可发布 Skill 文件。
+- 确认 `project-workflow-skill.zip` 只包含可发布 Skill 文件、模块和固定模板。
 - 如修改 Skill 结构，同步更新 `README.md` 和 `总文档.md`。
-

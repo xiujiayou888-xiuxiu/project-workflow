@@ -1,7 +1,7 @@
 interface:
   display_name: "AI 项目全链路总控"
-  short_description: "让普通人把想法做成可运行、可收费、可完整交付的产品"
-  default_prompt: "使用 $project-workflow，我想做一个项目。请一步一步问清需求、判断价值和可行性，再自动规划、开发、测评并完整交付。"
+  short_description: "让普通人把想法做成可运行、可复用成熟资产、可完整交付的产品"
+  default_prompt: "使用 $project-workflow，我想做一个项目。请一步一步问清需求、判断价值和可行性，开发前评估可参考或可复用的成熟开源资产，再自动规划、开发、测评并完整交付。"
 
 policy:
   allow_implicit_invocation: true
