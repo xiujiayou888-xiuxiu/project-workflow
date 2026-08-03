@@ -21,4 +21,7 @@
 - 远程旧历史与本地 V3 无共同祖先；已用保留双方历史的合并提交接入远程旧版，不使用 force push。
 - 当前发布提交：`1c0c4b8987107231ea400bbc9a7751770a5ade79`，已推送到 `origin/main`。
 - `v3.0.0` 标签已创建并推送。
-- 阻塞：GitHub CLI 当前未登录，Release 创建和上传 `project-workflow-skill.zip` 失败，真实错误为需要运行 `gh auth login` 或设置 `GH_TOKEN`。
+- 发布状态记录提交：`bdc125c31087b7db51f297a61dd674bfa4d83085`，已推送到 `origin/main`。
+- GitHub Release 已创建：`https://github.com/xiujiayou888-xiuxiu/project-workflow/releases/tag/v3.0.0`。
+- Release 资产已上传：`project-workflow-skill.zip`，大小 `38565` 字节，GitHub digest `sha256:849f2f5850ac2e0989c6e14224920aa7bae64f5b04084328d8a6b7a1ad54dc7b`。
+- 远程复验：`origin/main` 为 `bdc125c31087b7db51f297a61dd674bfa4d83085`；`v3.0.0^{}` 为 `1c0c4b8987107231ea400bbc9a7751770a5ade79`；本地与远程 ahead/behind 为 `0/0`。
