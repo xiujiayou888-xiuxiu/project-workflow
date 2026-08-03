@@ -15,4 +15,10 @@
 - `git diff --check` 通过。
 - GitHub CLI 版本：`2.95.0`。
 - 许可证已由用户确认为 MIT，并已补齐 `LICENSE`。
-- 阻塞：GitHub CLI 当前未登录。
+- 目标公开仓库：`https://github.com/xiujiayou888-xiuxiu/project-workflow.git`。
+- 远程旧版已确认：`origin/main` 原为 `c46a49eb0fc8b7053847cb56e1d3953bde29ffcb`，提交信息为 `project-workflow v1.0 — AI项目全链路开发工作流，30+参考模板`。
+- 本地 V3 提交：`d1fa4fca12d91e183d27101574fd81b5fc254784`。
+- 远程旧历史与本地 V3 无共同祖先；已用保留双方历史的合并提交接入远程旧版，不使用 force push。
+- 当前发布提交：`1c0c4b8987107231ea400bbc9a7751770a5ade79`，已推送到 `origin/main`。
+- `v3.0.0` 标签已创建并推送。
+- 阻塞：GitHub CLI 当前未登录，Release 创建和上传 `project-workflow-skill.zip` 失败，真实错误为需要运行 `gh auth login` 或设置 `GH_TOKEN`。

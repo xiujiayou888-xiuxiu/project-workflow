@@ -16,3 +16,9 @@
 
 - 决策：Release 资产只上传 `project-workflow-skill.zip`。
 - 原因：该 zip 只包含可安装 Skill 文件，已验证不包含个人归档、V2 私人归档、售卖包或用户数据。
+
+## 2026-08-03 - 接入既有公开仓库
+
+- 决策：目标仓库使用用户提供的 `https://github.com/xiujiayou888-xiuxiu/project-workflow.git`。
+- 原因：该仓库已有旧版 `project-workflow v1.0` 历史，应保留而不是覆盖。
+- 处理：本地 V3 与远程旧版无共同祖先，因此通过双父合并提交保留双方历史，最终文件树保持 V3，推送使用普通快进，不使用 force push。
