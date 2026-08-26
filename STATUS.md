@@ -1,11 +1,11 @@
 # workflow-kit 状态
 
-## 2026-08-27 - V3.5 分阶段交付路线（未发布）
+## 2026-08-27 - V3.5 分阶段交付路线（已发布）
 
 - 已将用户确认的交付顺序写入根 Skill、需求发现、架构工程、执行调度、文档模板、公开说明和上架字段：`基础版 -> 进阶版 -> 高阶版 -> 最终版`。
 - 基础版现在是可用、可验收的正式核心闭环；当前阶段只创建本阶段 REQ/CARD。阶段验收后，必须写入 `docs/20-阶段复盘与升版决定.md`，并等待真实证据和用户确认，不能自动派发下一阶段。
 - `R1-R4` 保持为风险和治理路由；阶段较小不跳过适用的安全、合规、审批和 POC 门禁。旧项目的 `SLICE-001` 标识兼容，新项目首个基础版切片使用 `BASE-001`。
-- 已生成 `RELEASE_NOTES_v3.5.0.md`，但没有创建 tag、Release 或上传资产。
+- 已创建 `v3.5.0` Git tag、GitHub Release 与 `project-workflow-skill.zip` 资产：`https://github.com/xiujiayou888-xiuxiu/project-workflow/releases/tag/v3.5.0`。
 - 已重新生成 `project-workflow-skill.zip`：13 个可安装文件与源码逐项 SHA256 一致，zip SHA256 为 `39ED3A01A2D4AB89FCA39D937D4998F970460B9848DD2EFD8ABD9C8A509511E7`，大小 `54438` 字节；`git diff --check` 通过。
 - 当前受限环境不写入 `C:\Users\10641\.codex\skills\project-workflow` 与 `C:\Users\10641\.agents\skills\project-workflow`，两个用户级安装目录仍待有权限时同步。
 
