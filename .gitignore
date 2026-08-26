@@ -21,9 +21,9 @@ coverage/
 tmp/
 temp/
 *.log
+.content-capture/
 
 # Python cache, for local validation scripts
 __pycache__/
 *.py[cod]
 .pytest_cache/
-

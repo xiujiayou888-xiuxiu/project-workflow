@@ -6,7 +6,7 @@
 
 ## 当前版本
 
-- 版本：V3.1 / `3.1.0`
+- 当前开发版本：V3.5 / `3.5.0`（未发布）；已发布版本：V3.1 / `3.1.0`
 - 主要入口：`SKILL.md`
 - 配套模块：`references/01-项目发现与需求.md` 至 `references/10-文档模板.md`
 - 安装包：`project-workflow-skill.zip`
