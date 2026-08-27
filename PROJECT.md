@@ -6,7 +6,7 @@
 
 ## 当前版本
 
-- 当前开发版本：V3.7.1 / `3.7.1`（本地体验优化中，未发布）；已发布版本：V3.6 / `3.6.0`；Release：`https://github.com/xiujiayou888-xiuxiu/project-workflow/releases/tag/v3.6.0`
+- 当前发布版本：V3.7.1 / `3.7.1`；GitHub 标签下载：`https://github.com/xiujiayou888-xiuxiu/project-workflow/archive/refs/tags/v3.7.1.zip`；安装包：`https://github.com/xiujiayou888-xiuxiu/project-workflow/raw/refs/tags/v3.7.1/project-workflow-skill.zip`；上一 Release：`https://github.com/xiujiayou888-xiuxiu/project-workflow/releases/tag/v3.6.0`
 - 主要入口：`SKILL.md`
 - 配套模块：`references/01-项目发现与需求.md` 至 `references/10-文档模板.md`
 - 安装包：`project-workflow-skill.zip`

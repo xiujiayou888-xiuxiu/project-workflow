@@ -2,7 +2,7 @@
 
 `workflow-kit` 是一个中文 AI 项目全链路总控 Skill，面向不会开发或不熟悉软件交付的人。它把一个想法、客户需求或接手项目，拆成需求澄清、价值判断、架构、执行分工、测试测评、手册反测和完整交付。
 
-当前开发版本：`v3.7.1`（本地体验优化中，未发布）；已发布版本：[`v3.6.0`](https://github.com/xiujiayou888-xiuxiu/project-workflow/releases/tag/v3.6.0)
+当前发布版本：[`v3.7.1`](https://github.com/xiujiayou888-xiuxiu/project-workflow/tree/v3.7.1)；安装包：[直接下载](https://github.com/xiujiayou888-xiuxiu/project-workflow/raw/refs/tags/v3.7.1/project-workflow-skill.zip)；上一 Release：[`v3.6.0`](https://github.com/xiujiayou888-xiuxiu/project-workflow/releases/tag/v3.6.0)
 
 ## 适合场景
 
